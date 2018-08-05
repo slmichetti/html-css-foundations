@@ -59,4 +59,5 @@ Add Headers and Paragraphs
 	Ex:
 		<!--We need to figure out how to do a copyright symbol.--> These are visible in browser tools to view source code
 
-		
+	HTML for symbols and characters
+		Google: HTML codes. You can use the HTML Name or Number in your code
