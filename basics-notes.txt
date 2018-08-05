@@ -1,0 +1,18 @@
+HTML and CSS for Beginners
+
+What HTML and CSS are
+	Both computer languages used to write web pages. A markup language. Using the code to "mark up" tell the browswer how to display/show text and images on web pages.
+
+	Not a programming langauge becuase you're not giving instructions to perform any actions. 
+	Markup languages just tell the computer how you want things to look on the screen
+
+Creating first files
+	index.html
+	style.css
+
+	your stylesheet can be called anything but has to be saved with .css
+	html sheet
+		index is a default name for web pages
+	images need to get stored somewhere so create an images folder within your folder for the website
+
+	
