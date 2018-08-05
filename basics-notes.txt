@@ -48,3 +48,15 @@ Basic Tags needed. Tags almost always come in pairs
 
 See what your code looks like.
 	Take your index.html file and drag it on top of the web browswer you want to open it up. And you'll be able to preview your changes. 
+
+Add Headers and Paragraphs
+	Get used to always creating your tags in pairs. 
+	Header Tag is <h1>. Every other header will be a subheader ex: <h2> Can go down to six levels through <h6>
+	Save and reload the browswer to see your changes
+	Browswers have default settings that separate your headers and paragraphs.
+
+	Tag that lets you put text inside your web page thats not visible in the web browswer - commenting. Allows you to leave comments to yourself or instructions to others that might be reading your code. 
+	Ex:
+		<!--We need to figure out how to do a copyright symbol.--> These are visible in browser tools to view source code
+
+		
