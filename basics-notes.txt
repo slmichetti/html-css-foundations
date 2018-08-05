@@ -15,4 +15,36 @@ Creating first files
 		index is a default name for web pages
 	images need to get stored somewhere so create an images folder within your folder for the website
 
-	
+Basic syntax for writing HTML
+	Get used to brackets <<< (open) >>> (close) Almost all code uses these keys
+	<!DOCTYPE html> Doc type declaration. Needed at top of EVERY html page - tells web browser you are using html and what kind. 
+
+	Rest of page is made up of opening and closing tags <tag> </tag>  No spaces - better to not have spaces
+	  Ex <tag>stuff goes here</tag>
+
+Basic Tags needed. Tags almost always come in pairs
+	<html></html>   Need at beginning and ending of every html page. This encloses everything in your page. Everything goes inside these tags. 
+
+	<head></head>
+	<body></body>
+
+	How you nest things matters. When building an html page you have to have a head and a body. 
+	The head tag is the administrative details. Stuff about the page. Meta information. (the stuff in your head). 
+	The body is where you put the text, images, etc. 
+	<title> goes within the head - its the title of your webpage and shows up in the title bar of the browser.
+
+	These are the essential components in every single HTML page. This is your template. Accuracy in formatting and opening/closing all of these is critical. Tags are always in lower case. 
+
+		<!DOCTYPE html>
+
+		<html>
+		<head>
+			<title>Title</title>
+		</head>
+		<body>
+			all the content
+		</body>
+		</html>
+
+See what your code looks like.
+	Take your index.html file and drag it on top of the web browswer you want to open it up. And you'll be able to preview your changes. 
