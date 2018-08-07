@@ -86,6 +86,10 @@ Add Headers and Paragraphs
 		IconArchive.com for icons for your site. 
 		cmd+I lets you see the image size of a file
 
+Adding Clickable Links
+	Links need the a tag and it gets wrapped around what you want to link. 
+	Add the a tag to the beginning and end of your image
+
 			
 
 
