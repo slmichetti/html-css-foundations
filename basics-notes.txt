@@ -82,6 +82,10 @@ Add Headers and Paragraphs
 
 			alt = a description of the image; loads in place of images that dont load
 
-		
+	Adding Icons to your site
+		IconArchive.com for icons for your site. 
+		cmd+I lets you see the image size of a file
+
+			
 
 
