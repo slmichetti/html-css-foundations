@@ -90,6 +90,9 @@ Adding Clickable Links
 	Links need the a tag and it gets wrapped around what you want to link. 
 	Add the a tag to the beginning and end of your image
 
-			
+Checking HTML for errors
+	Validating your Code - validators are useful to use when things aren't working the way you think they should be by finding the error. 
+	W3C Markup Validation Service - free service. validato.w3.org
+	Focus on one error at a time. Solve the easiest first then focus on the next.
 
 
