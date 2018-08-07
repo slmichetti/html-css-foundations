@@ -60,4 +60,28 @@ Add Headers and Paragraphs
 		<!--We need to figure out how to do a copyright symbol.--> These are visible in browser tools to view source code
 
 	HTML for symbols and characters
-		Google: HTML codes. You can use the HTML Name or Number in your code
+		Google: HTML codes. You can use the HTML Name or Number in your code. Copy and paste that into your code on where its needed
+
+	Adding hyperlinks
+		"A tag" <a></a>  It requires more information
+		Attributes - extra information you give to tags so that tag has customization
+		attribute href <a href="></a>  Attribute value pairs. Value to an a or link tag requires a web address of where you want the link to a "href=http://www.somewebsite.com">whatever you wan to be the link (will get underlined) ex word LINK</a>
+
+		Email links are similar. <a> </a> instead of a url you use href=mailto:emailaddress.com
+
+	Adding Images
+		The type of image you use is important. Web browswers can only display three types of images: jpeg, gif, png. Others are not consistently supported across browswers. 
+
+		The image needs to be put in your images folder. All images need to be in that folder. 
+		Image tag breaks the pair rule. Its a self closing tag. There are a lot of different attributes you can add - but there are four essential (mandatory) attribute value pairs needed.
+			src = source; telling the browser what is the source of the image. Where is it located relative to this index.html file.
+			image file name is case sensitive - needs to match exact to what is saved in your image file (no spaces)
+
+			have to tell the browswer the size of the picture, given in pixels
+			width="?" height="?"
+
+			alt = a description of the image; loads in place of images that dont load
+
+		
+
+
