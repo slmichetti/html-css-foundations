@@ -198,6 +198,68 @@ Color Schemes
 
 	Affect links in css - type "a"  the a selector and it will affect anything within those a tags
 
+Checking CSS Code for Mistakes
+	CSS Validators 
+		http://jigsaw.w3.org/css-validator/#validate_by_upload
+
+Web Publishing
+	to publish your page
+		Register your domain name
+		Find a web hosting provider to host your webpages (in this case the html and css files)
+
+		Once youve done that, you'll need some way to get your files to the web host's server. Typically you'll use FTP to do this.
+
+			FTP - File Transfer Protocol
+
+		Cyberduck for FTP - download for free
+
+
+Uploading and Downloading files using FTP
+
+Separating sections of your webpage. Add DIVs
+	Identify the sections you want on your page
+	<div></div> you'll put the opening and closing around anything you want to identify as a section. 
+
+	Label it - with an ID attribute. You decide what that attribute is and add to your css code to style it a certain way. 
+	You can nest divs. Important to close them in the right order.
+
+	To help - add a border while you are doing design. Helps you identify the areas for your <div>
+	div {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: white;
+	}
+
+Changing background color for different divs
+	Applying color to one specific div. You'll use the ID attribute value-pairs
+
+	#main {
+	*/ stuff goes here */
+	}
+
+	#priority {
+
+	}
+
+	#footer {
+
+	}
+
+Changing DIV Width
+	Percentages allow the design to remain consistent and flow with size changes; responsive
+
+	width: 75%
+
+Centering Content inside of a DIV
+	add the attribute value pair
+
+	text-align: center
+
+Centering an entire DIV (not just its content)
+	add attribute:
+
+	margin: auto;
+		margin can have different values. but using auto when something has a width - the effect is it will center the entire div. 
 
 
 
