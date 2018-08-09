@@ -95,4 +95,44 @@ Checking HTML for errors
 	W3C Markup Validation Service - free service. validato.w3.org
 	Focus on one error at a time. Solve the easiest first then focus on the next.
 
+CSS = Cascading Style Sheets. 
+	Used to describe the look and formatting of a document written in a markup language like HTML
+
+	Designed primarily to allow the separation of content and presentation (layout, colors, fonts, etc)
+
+	Can be used to control the way a web page displays depending on viewer's screen size
+
+Three ways to apply CSS to HTML
+	in-line
+	internal
+	external (used for multiple page websites)
+
+Both in-line and internal sytles are coded inside the HTML file (not in a separate css file)
+	In-line styles are written inside HTL tags using the style attribute and apply to just one particular bit of content
+		Ex: <p style="color:red">text</p>
+
+	Internal styles (also called "embedded" styles) are written inside the head element using the style tag and apply to the whole page (but not to other pages on the same website)
+		Ex:
+		<!DOCTYPE html>
+		<html>
+		<head>
+		<title>CSS Example</title>
+
+		p {
+		color:red;
+		}
+
+		a {
+		color:blue;
+		}
+
+		</style>
+
+Best Practice to keep content (HTML) and presentation (CSS) separate. Means avoiding in-line and internal and instead always use external style sheets wherever possible
+
+https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+
+
+
+
 
