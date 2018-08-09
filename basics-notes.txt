@@ -132,7 +132,16 @@ Best Practice to keep content (HTML) and presentation (CSS) separate. Means avoi
 
 https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
+Connecting CSS style sheet to HTML page
+	Telling the browser where to find your file is an "administrative" function, so adding the tag to link the style sheet to the HTML is done in the head
 
+	The link tag is self closing.
+	<link rel="stylesheet" type="text/css" href=/>
+	rel = relationship
+	type = the type of file it is
+	href = the relative location of the css file (same directory you can just use the file name, but if you've got a folder stucture you have to add the folder then the file name)
+
+	
 
 
 
