@@ -187,3 +187,17 @@ Changing Fonts on your web page
 	Ex:
 	font-size: 300% 
 
+Color Schemes
+	Choosing a color palatte
+	Tools:
+	- colorexplorer.com -- allows you to use "Image color Import" where you upload a file and it extracts a palatte of colors that you can use on your website; complimentary colors. Site allows you to save and export the palatte. Download the image to give you the coloar and the number. Txt file gives you text thats easily copied, but no image. You can use the image to create a color refrence file.
+
+	Changing colors on the webpage
+	Adding background color
+		color; is the attribute for text color. Putting it in the "head" will affect the text on all pages
+
+	Affect links in css - type "a"  the a selector and it will affect anything within those a tags
+
+
+
+
