@@ -128,9 +128,9 @@ Both in-line and internal sytles are coded inside the HTML file (not in a separa
 
 		</style>
 
-Best Practice to keep content (HTML) and presentation (CSS) separate. Means avoiding in-line and internal and instead always use external style sheets wherever possible
+	Best Practice to keep content (HTML) and presentation (CSS) separate. Means avoiding in-line and internal and instead always use external style sheets wherever possible
 
-https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+	https://en.wikipedia.org/wiki/Cascading_Style_Sheets
 
 Connecting CSS style sheet to HTML page
 	Telling the browser where to find your file is an "administrative" function, so adding the tag to link the style sheet to the HTML is done in the head
@@ -141,7 +141,30 @@ Connecting CSS style sheet to HTML page
 	type = the type of file it is
 	href = the relative location of the css file (same directory you can just use the file name, but if you've got a folder stucture you have to add the folder then the file name)
 
-	
+CSS Syntax
+	HTML has tags. CSS has selectors (its selecting the things you want to add style to)
 
+	body {this will have an affect on everything int he body tag}
+		Ex: change the background color of your site
+		body {background-color: red}
+		body - selector
+		background-color = attribute. At the end of every attribute you need to put a :
+		red=value  at the end of every value you need a ;
 
+	h1 { }
+		Ex: h1 {background-color: red;}
 
+	Organizing your code - just like html, spacing doesnt matter. Put each attribute value pair on its own line.
+
+	h1 {
+		backgroud-color: red;
+		background-color: red;
+		background-color: red;
+		}
+
+	p {
+		color: green;
+		}
+
+	Can comment on a stylesheet same as html - format is different
+		/* this is a comment */
