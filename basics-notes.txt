@@ -168,3 +168,22 @@ CSS Syntax
 
 	Can comment on a stylesheet same as html - format is different
 		/* this is a comment */
+
+Changing Fonts on your web page
+	Web safe fonts (w3schools.com is a great resource)
+	Browsers rely on what fonts are installed on the users (who is on your site) computer. there are certain fonts that are common. Those are web-safe fonts combinations. These are the series of fonts you want to put in your css file. Using the combination ensures everyone has a similar experience for your styling.
+
+	Adding fonts - font-family is the attribute
+
+	Name your font in the order of preference. 
+		body {
+		font-family: font1, font2, font3;
+		}
+
+	Chaning the font size
+	Use the attribute: font-size
+	Percentage values ensure everything is relative/scales. 
+
+	Ex:
+	font-size: 300% 
+
