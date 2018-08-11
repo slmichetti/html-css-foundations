@@ -261,5 +261,18 @@ Centering an entire DIV (not just its content)
 	margin: auto;
 		margin can have different values. but using auto when something has a width - the effect is it will center the entire div. 
 
+Container Div
+	to house changes for margins you would want to apply to all
 
+Removing underlines from Links
+	Text decoration - applies to the "a" attribute
+	text-decoration: none:
+
+Changing text case
+	text transform attribute. ex h1 all lowercase 
+	add attribute to h1
+	text-transform: lowercase;
+	all uppercase
+	text-transform: uppercase;
+	
 
