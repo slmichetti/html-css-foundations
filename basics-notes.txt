@@ -1,3 +1,4 @@
+
 HTML and CSS for Beginners
 
 What HTML and CSS are
@@ -286,4 +287,16 @@ Categorizing your web page using classes
 	ex class="lowercase" instead of in the style.css
 
 	Whatever you name it has to correspond to the .classname and the class="" in the html
+
+Floating an Image
+	Can create a class (there are multiple ways to do this)
+	Create a class that can be applied to elements and make them float to the right (or left)
+	.right and use float attribute
+	right {
+		float: right;
+		}
+
+To get text to clear the image
+	to ensure an area never overlaps an element above it
+		Use clear element - which refers to anything on that side, you want to clear it
 
