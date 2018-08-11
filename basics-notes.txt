@@ -300,3 +300,15 @@ To get text to clear the image
 	to ensure an area never overlaps an element above it
 		Use clear element - which refers to anything on that side, you want to clear it
 
+Add space inside and around divs
+	Margins and Padding
+	css uses the box model - divs are boxes. when you add margins to the div, it adds margin to the outside
+	padding is the distance between the border and where your text starts
+	margin = extra space on the outside
+
+	Adding px of margin to images; but only adding that to images in a specific place. If you dont specify top, bottom, etc you can just type margin or padding and it applies it to all sides
+	#footer img {
+		margin: 5px;
+		}
+
+
