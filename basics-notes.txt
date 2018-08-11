@@ -275,4 +275,15 @@ Changing text case
 	all uppercase
 	text-transform: uppercase;
 	
+Categorizing your web page using classes
+	Classes in css  - can create your own in css
+	. (start with a period that is an indicator to css that you are about to create a new class)
+	.lowercase {
+		text-transform: lowercase;
+		}
+
+	The class is then used in html
+	ex class="lowercase" instead of in the style.css
+
+	Whatever you name it has to correspond to the .classname and the class="" in the html
 
