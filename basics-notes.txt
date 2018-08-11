@@ -311,4 +311,8 @@ Add space inside and around divs
 		margin: 5px;
 		}
 
+Make rounded corners to your divs 
+	 To apply to all divs on the page
+	 border-radius: 10px; imaginary distance between the center of the cirlce and the edge of the line
+	 so the larger the px, the larger the circle
 
