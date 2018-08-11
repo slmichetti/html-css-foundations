@@ -316,3 +316,6 @@ Make rounded corners to your divs
 	 border-radius: 10px; imaginary distance between the center of the cirlce and the edge of the line
 	 so the larger the px, the larger the circle
 
+Tweaking line spacing for text on the webpage
+	use the line-height attribute and add to the p selector
+	
