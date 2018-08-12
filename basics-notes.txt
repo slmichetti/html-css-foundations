@@ -346,5 +346,28 @@ Adding Drop Shadow Effect
 				1 = 100%
 				.3 is equiv to 30%
 
+Creating special effects with images
+	Drop to snapshot image with an image 
+	adding a border for your snapshot effect - to apply only to one image on your page
+		create a class
+		img.snapshot - creating a class specific to the image selectors in the html page
+			define and add the border (border-width: 10px; border style: solid; border-color: #ffffff)
+		you can add multiple classes - you just need to type them all out
+		check your work and step through
+		add box-shadow
+		add margin if needed; if you want to add different amount of margins around an image, you can do that by having multiple values 
+			margin: TOP RIGHT BOTTOM LEFT (like a clock)
+		tilt your image - using css3 - 
+			vendor prefixes - a piece of code that you add in front of an attribute that makes it so specific web browsers will understand it. there are different prefixes for different browsers
+				 -mox-    firefox
+				 -webkit-   chrome and safari
+				 -o-     opera
+				 -ms-    internet explorer
+
+			attribute is called transform: rotate (and specify the amount)
+				-moz-transform: rotate(-5deg);
+				-webkit-transform: rotate(-5deg); etc
+
+
 
 	
