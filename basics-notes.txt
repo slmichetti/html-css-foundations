@@ -318,4 +318,15 @@ Make rounded corners to your divs
 
 Tweaking line spacing for text on the webpage
 	use the line-height attribute and add to the p selector
+
+Changing a link appearance and behavior when its hovered over
+	change behavior of links with the a tag
+	changing the behavior of a link in just one section, you use the #id and specify
+
+	Create a pseudo-class
+		#priority a:hover {
+			color: #color
+			}
+
+
 	
