@@ -1,0 +1,92 @@
+body { /* stuff goes here */
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #240633;
+	color: #ffffff;
+	 }
+
+h1 { 
+	/* stuff goes here */
+	font-size: 250%; 
+	}
+/* this is a comment so you can leave notes to yourself */ 
+
+p {
+	/* stuff goes here */ 
+	font-size: 120%;
+	line-height: 1.5;
+	}
+
+/* this will turn all the paragraph text green */ 
+
+a {
+	color: #DBBDA9;
+	text-decoration: none;
+	}
+
+div {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: transparent;
+	border-radius: 20px;
+	}
+.lowercase {
+	text-transform: lowercase
+	}
+
+.right {
+	float: right;
+	}
+
+img.snapshot {
+		border-width: 10px;
+		border-style: solid;
+		border-color: #ffffff;
+		box-shadow: 10px 10px 15px rgba(0,0,0,.3);
+		margin: 10px 20px 40px 20px;
+		-moz-transform: rotate(-5deg);  /* for Firefox */
+		-webkit-transform: rotate(-5deg); /*for chrome and safari */
+		-o-transform: rotate (-5deg); /* for opera */
+		}
+
+#container {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	}
+
+#main {
+	background-color: #301D30;
+	padding: 30px;
+	box-shadow: 5px 5px 15px rgba(0,0,0,.3);
+	}
+
+#priority {
+	background-color: #575B6B;
+	color: #030303;
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	clear: both;
+	font-size: 120%;
+	box-shadow: 10px 5px 15px rgba(0,0,0,.2);
+	}
+
+#priority a {
+	color: #030303;
+	}
+
+#priority a:hover {
+			color: #DBBDA9;
+			}
+
+#footer {
+	background-color: #240633;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60%;
+	padding: 15px;
+	}
+
+#footer img {
+		margin: 5px;
+		}
