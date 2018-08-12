@@ -328,5 +328,23 @@ Changing a link appearance and behavior when its hovered over
 			color: #color
 			}
 
+Adding Drop Shadow Effect
+	Adding a drop shadow to a div
+		remove your border lines that you were using while creating
+		do this by changing the color to "transparent" - allows you to quickly add it back if you need to make edits and see the borders of the divs
+
+	use the box-shadow attribute
+		values for this attribute
+			the first value is a pixel value - the horizontal offset. the distance the drop shadow is from the edge horizontally
+			the second value is the vertical offset
+			the third is the blur radius (the bigger the value the more the shadow is blurred)
+			the final value defines the color with rgba value
+				rgba (x, x, x, x);
+					red green blue alpha
+					alpha is the opacity value for that color
+			typical drop shadow black in rgb is 0,0,0,
+				1 = 100%
+				.3 is equiv to 30%
+
 
 	
