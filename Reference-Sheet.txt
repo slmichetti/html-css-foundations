@@ -1,0 +1,80 @@
+Reference Sheet
+
+Tags - nearly all must have open and close. There are some exceptions
+	<tag>
+	</tag>
+
+create: index.html
+		style.css
+		images folder
+
+Add to your html
+	<!DOCTYPE html>
+
+	<html> - the beginning and ending of every html page. It always encloses everything in your page.
+	<head> - holds the title
+	</head>
+	<body>  - holds all the content of the page
+	</body>
+	</html>
+
+<h1> - header tag; goes up to <h6>
+<a> - "a tag" used for hyperlinks and requires add'l information / requires attributes
+	a href = value pair; href is the map to the link
+	"href=http://www.somewebsite.com"
+	"href=mailto:emailaddress@domain.com"
+
+Images must be jpeg, gif, png and must be in the images folder
+
+
+CSS - best practice is to keep html (content) and css (presentation) in separate files
+	Using external styel sheets whenever possible
+
+<link rel="stylesheet" type="text/css" href=/>
+	link tag is self closing; rel= relationship; type = type of file it is; href+ the relative location of the css file
+
+CSS uses SELECTORS / HTML uses TAGS
+	Uses { } to open and close
+	body - affects everything in the body tag
+	p - the text
+	a - the links
+
+Attributes
+	font-size (use percentages to ensure everything is relative and will scale)
+		ex font-size: 300%;
+	text-align
+	margin: auto;
+	text-transform: uppercase; or lowercase;
+	border-radius: 10px  to create rounded corners
+	line-height to add space between text lines
+	box-shadow: rgba (0, 0,0 .3) - uses rgb color and alpha for opacity of hte color. 1=100%
+
+Classes
+	create your own class in css
+	.name (starts with a period)
+		ex: .lowercase { text-transform: lowercase}
+		in html use class="lowercase"
+	.right combined with float to float an image 
+		.right {float: right;}
+
+Pseudo-class: allows you to change behavior within a selector
+	ex; use a section
+		#priority a:hover { color: #color} is telling that link to change appearance when its hovered over
+
+Create sections on your page
+	<div></div>
+	Label it with an id attribute to identify it in css
+		#main
+		#customname
+		#footer
+
+Margins: adds margin to the outside 
+Padding: the distance between the border and where your text starts - inside
+
+Resources:
+ - textwrangler.com
+ - iconarchive.com
+ - validator.w3.org (validate your code)
+ - w3schools.com (web safe fonts and combinations)
+ - colorexplorer.com (color palattes; can upload an image to create a palatte)
+ - http://jigsaw.w3.org/css-validator/#validate_by_upload (validate your css code)
